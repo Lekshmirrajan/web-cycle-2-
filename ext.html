@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors Example</title>
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="ext.css" />
+  </head>
+  <body>
+    <h1>Different CSS Selectors Example</h1>
+
+    <!-- Paragraph using element selector -->
+    <p>This is a paragraph styled using an element selector (p).</p>
+
+    <!-- Paragraph using class selector -->
+    <p class="class-selector">
+      This paragraph is styled using a class selector.
+    </p>
+
+    <!-- Paragraph using ID selector -->
+    <p id="id-selector">This paragraph is styled using an ID selector.</p>
+
+    <!-- Paragraph using group selector -->
+    <p class="group-selector">
+      This paragraph is styled using a group selector (shared style with h2).
+    </p>
+
+    <!-- Adding an h2 tag to demonstrate group selector -->
+    <h2 class="group-selector">
+      This heading shares the group selector styling with the paragraph above.
+    </h2>
+
+    <!-- Paragraph using descendant selector -->
+    <div class="container">
+      <p>
+        This paragraph is inside a div and is styled using a descendant selector
+        (div p).
+      </p>
+    </div>
+  </body>
+</html>
