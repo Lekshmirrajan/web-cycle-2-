@@ -1,0 +1,36 @@
+/* Element Selector (Targets all p elements) */
+p {
+  font-family: Arial, sans-serif;
+  color: green;
+  background-color: lightyellow;
+  padding: 10px;
+}
+
+/* Class Selector (Targets elements with class 'class-selector') */
+.class-selector {
+  color: white;
+  background-color: navy;
+  padding: 10px;
+}
+
+/* ID Selector (Targets element with id 'id-selector') */
+#id-selector {
+  color: black;
+  background-color: lightblue;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Group Selector (Targets elements with class 'group-selector') */
+.group-selector {
+  color: white;
+  background-color: darkred;
+  padding: 10px;
+}
+
+/* Descendant Selector (Targets p elements inside a div with class 'container') */
+.container p {
+  color: darkblue;
+  background-color: lightgray;
+  padding: 10px;
+}
